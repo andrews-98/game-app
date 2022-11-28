@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game JS</title>
+</head>
+<body>
+    <div class="container">
+    <div class="block_1">
+        <div class="timeText">
+            <h1 id="time-header">Час ігри:<span id="time"> 5.0</span></h1>
+            <h1 id="result-header" class="hide">Ваш результат:<span id="result"></span></h1>
+        </div>
+            <div class="frame">
+        <div class="block_inside" id = 'block_background'></div>
+        <button class = 'btn' id ="start">Почати</button>
+    </div>
+            <div class="time_select">
+                <div class="timeOfGameText"><h1>Час ігри(сек)</h1></div>
+                <input type="number" id = 'game-time' min = '5' step="1" value="5">
+            </div>
+
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
